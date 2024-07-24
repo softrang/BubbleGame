@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+html body{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(230, 222, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+}
+
+#main_page{
+   
+    width: 1150px;
+    height: fit-content;
+    background-color: whitesmoke;
+  
+ left: 50%;
+ top: 0%;
+ transform: translate(-50%, -0%);
+   
+    position: absolute;
+    z-index: 1;
+}
+
+#page1{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(219, 248, 248);
+    font-size: 420%;
+    text-align: center;
+    line-height: 140%;
+    font-weight: 900;
+    color: rgb(25, 25, 56);
+    font-style: oblique;
+   
+ 
+}
+
+
+
+#page2{
+    width: 100%;
+    height: max-content;
+    background-color: azure;
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+    width: 100%;
+    height: max-content;
+   color: rgb(44, 29, 58);
+    display: flex;
+    
+}
+
+.cont{
+    width: 100%;
+    height: max-content;
+    font-size: 190%;
+    line-height: 150%;
+    background-color: rgb(231, 223, 238);
+    padding-left: 10px;
+}
+
+.cont:nth-child(1){
+    text-align: right;
+}
+
+#page3{
+    width: 100%;
+    height: fit-content;
+    background-color: azure;
+    display: flex;
+    gap: 9px;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.bobul{
+    width: 6%;
+    height: 10%;
+
+ background-image: url(picture/01.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+    border-radius: 50%;
+    
+    text-align: center;
+    line-height: 210%;
+    font-size: 200%;
+    color:black;
+    cursor: pointer;
+    margin: 2px;
+    box-shadow: 2px 2px 5px  rgb(0, 0, 0);
+   
+}
+
+#oa{
+    width: 100%;
+    height: 10vh;
+    font-size: 5px;
+    color: white;
+    display: none;
+}
+
+#fotter{
+    width: 100%;
+    height: max-content;
+    font-size: 130%;
+    line-height: 190%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 2px;
+}
